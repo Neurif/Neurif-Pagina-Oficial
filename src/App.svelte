@@ -96,6 +96,10 @@
 <div class="ticks"></div>
 <section id="spacer"></section>
 
+<Footer>
+
+</Footer>
+
 <style>
   .hola p span
   {
