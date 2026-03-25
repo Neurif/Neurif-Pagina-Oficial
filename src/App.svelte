@@ -3,7 +3,11 @@
   import viteLogo from './assets/vite.svg'
   import heroImg from './assets/hero.png'
   import Counter from './components/Counter.svelte'
+<<<<<<< Updated upstream
     import Header from './components/Header.svelte';
+=======
+  import Footer from './components/Footer.svelte'
+>>>>>>> Stashed changes
 </script>
 
 <Header>
@@ -92,6 +96,10 @@
 
 <div class="ticks"></div>
 <section id="spacer"></section>
+
+<Footer>
+
+</Footer>
 
 <style>
   .hola p span
