@@ -23,11 +23,17 @@
     <h1>Get started</h1>
     <p>Edit <code>src/App.svelte</code> <span>and save to test</span> <code>HMR</code></p>
   </div>
-  <Counter />
+  <Counter /> 
 </section>
 
+<section id="vision">
+  <div class="la_vision">
+    <h1>Nuestra Visión</h1>
+    <p>Ser la empresa líder en el mercado de remodelaciones y tecnología estructural 
+      al igual que en el apartado de seguridad cibernética. </p>
+  </div>
+</section>
 <div class="ticks"></div>
-
 <section id="next-steps">
   <div id="docs">
     <svg class="icon" role="presentation" aria-hidden="true">
