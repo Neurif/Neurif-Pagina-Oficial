@@ -3,7 +3,12 @@
   import viteLogo from './assets/vite.svg'
   import heroImg from './assets/hero.png'
   import Counter from './components/Counter.svelte'
+    import Header from './components/Header.svelte';
 </script>
+
+<Header>
+
+</Header>
 
 <section id="center">
   <div class="hero">
