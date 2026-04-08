@@ -11,9 +11,6 @@
         const progress = 1 - rect.top / windowHeight;
         visionProgress = Math.min(Math.max(progress, 0), 1);
     }
-<<<<<<< HEAD
-})
-=======
 
     onMount(() => {
         updateVisionProgress();
@@ -31,7 +28,6 @@
     import imagenEmpresa1 from "/imagenEmpresa1.png";
     import "bootstrap/dist/css/bootstrap.min.css";
     import "bootstrap/dist/js/bootstrap.bundle.min.js";
->>>>>>> e7c3f6d4e6b5268f6a664bd069cf2035050961f5
 </script>
 
 <div
@@ -42,12 +38,6 @@
         ? 'visible'
         : 'hidden'};"
 >
-<<<<<<< HEAD
-  <h1>Nuestra Visión</h1>
-  <p>Ser la empresa líder en el mercado de remodelaciones y tecnología estructural 
-    al igual que en el apartado de seguridad cibernética. </p>
-</div>
-=======
     <h1>Nuestra Visión</h1>
     <p>
         Ser la empresa líder en el mercado de remodelaciones y tecnología
@@ -118,4 +108,3 @@
             transform 0.2s ease;
     }
 </style>
->>>>>>> e7c3f6d4e6b5268f6a664bd069cf2035050961f5
