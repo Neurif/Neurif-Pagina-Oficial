@@ -6,6 +6,7 @@
     import Header from './components/Header.svelte';
     import SobreNosotros from './components/SobreNosotros.svelte';
     import Footer from './components/Footer.svelte';
+    import NuestraVision from "./components/NuestraVision.svelte";
 </script>
 
 <Header/>
@@ -20,17 +21,16 @@
     </div>
     <div class="hola">
         <h1>Get started</h1>
-        <p>Edit <code>src/App.svelte</code> <span>and save to test</span> <code>HMR</code></p>
+        <p>
+            Edit <code>src/App.svelte</code> <span>and save to test</span>
+            <code>HMR</code>
+        </p>
     </div>
-    <Counter /> 
+    <Counter />
 </section>
 
 <section id="vision">
-    <div class="la_vision">
-        <h1>Nuestra Visión</h1>
-        <p>Ser la empresa líder en el mercado de remodelaciones y tecnología estructural 
-            al igual que en el apartado de seguridad cibernética. </p>
-    </div>
+    <NuestraVision />
 </section>
 <div class="ticks"></div>
 <section id="next-steps">
@@ -101,9 +101,7 @@
 <div class="ticks"></div>
 <section id="spacer"></section>
 
-<Footer>
-
-</Footer>
+<Footer></Footer>
 
 <style>
     .hola p span
