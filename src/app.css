@@ -3,6 +3,7 @@
     --text-h: #08060d;
     --bg: #fff;
     --border: #e5e4e7;
+    --card-bg: #f4f3ec;
     --code-bg: #f4f3ec;
     --accent: #aa3bff;
     --accent-bg: rgba(170, 59, 255, 0.1);
@@ -36,6 +37,7 @@
         --text-h: #f3f4f6;
         --bg: #16171d;
         --border: #2e303a;
+        --card-bg: #1f2028;
         --code-bg: #1f2028;
         --accent: #c084fc;
         --accent-bg: rgba(192, 132, 252, 0.15);
@@ -52,6 +54,7 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1,

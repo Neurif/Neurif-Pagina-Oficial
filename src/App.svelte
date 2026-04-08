@@ -4,16 +4,14 @@
     import heroImg from './assets/hero.png'
     import Counter from './components/Counter.svelte'
     import Header from './components/Header.svelte';
-    import Sb from './components/Sb.svelte';
+    import SobreNosotros from './components/SobreNosotros.svelte';
     import Footer from './components/Footer.svelte';
 </script>
 
-<Header>
+<Header/>
 
-</Header>
-<Sb>
+<SobreNosotros/>
     
-</Sb>
 <section id="center">
     <div class="hero">
         <img src={heroImg} class="base" width="170" height="179" alt="" />
