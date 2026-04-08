@@ -5,7 +5,9 @@
   import Counter from './components/Counter.svelte'
   import Header from './components/Header.svelte';
   import Sb from './components/Sb.svelte';
-</script>
+  import Footer from './components/Footer.svelte';
+  import NuestraVision from './components/NuestraVision.svelte';
+</script>   
 
 <Header>
 
@@ -27,11 +29,7 @@
 </section>
 
 <section id="vision">
-  <div class="la_vision">
-    <h1>Nuestra Visión</h1>
-    <p>Ser la empresa líder en el mercado de remodelaciones y tecnología estructural 
-      al igual que en el apartado de seguridad cibernética. </p>
-  </div>
+  <NuestraVision />
 </section>
 <div class="ticks"></div>
 <section id="next-steps">
@@ -103,7 +101,7 @@
 <section id="spacer"></section>
 
 <Footer>
-
+  
 </Footer>
 
 <style>

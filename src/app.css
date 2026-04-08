@@ -185,28 +185,35 @@ code {
   display: flex;
   border-top: 1px solid var(--border);
   text-align: left;
-
-  & > div {
-    flex: 1 1 0;
-    padding: 32px;
-    @media (max-width: 1024px) {
-      padding: 24px 20px;
-    }
-  }
-
-#vision {
-  
 }
-  .icon {
-    margin-bottom: 16px;
-    width: 22px;
-    height: 22px;
+
+#next-steps > div {
+  flex: 1 1 0;
+  padding: 32px;
+}
+
+@media (max-width: 1024px) {
+  #next-steps > div {
+    padding: 24px 20px;
   }
 
-  @media (max-width: 1024px) {
+  #next-steps {
     flex-direction: column;
     text-align: center;
   }
+}
+
+.la_vision {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(30px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+#next-steps .icon {
+  margin-bottom: 16px;
+  width: 22px;
+  height: 22px;
 }
 
 #docs {
