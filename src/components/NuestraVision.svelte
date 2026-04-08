@@ -68,13 +68,28 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src={imagenEmpresa1} class="d-block w-100" alt="slide 1" />
+                <img
+                    src={imagenEmpresa1}
+                    id="companyCarousel"
+                    class="d-block w-100"
+                    alt="slide 1"
+                />
             </div>
             <div class="carousel-item">
-                <img src={placeholder} class="d-block w-100" alt="slide 2" />
+                <img
+                    src={placeholder}
+                    id="companyCarousel"
+                    class="d-block w-100"
+                    alt="slide 2"
+                />
             </div>
             <div class="carousel-item">
-                <img src={placeholder} class="d-block w-100" alt="slide 3" />
+                <img
+                    src={placeholder}
+                    id="companyCarousel"
+                    class="d-block w-100"
+                    alt="slide 3"
+                />
             </div>
         </div>
         <button
