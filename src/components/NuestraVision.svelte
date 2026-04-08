@@ -20,8 +20,6 @@ onMount(() => {
     window.removeEventListener('resize', updateVisionProgress)
     }
 })
-
-
 </script>
 
 <div
@@ -33,12 +31,3 @@ onMount(() => {
   <p>Ser la empresa líder en el mercado de remodelaciones y tecnología estructural 
     al igual que en el apartado de seguridad cibernética. </p>
 </div>
-
-<style>
-.la_vision {
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(30px);
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-</style>
