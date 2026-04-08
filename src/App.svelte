@@ -5,6 +5,8 @@
     import Counter from "./components/Counter.svelte";
     import Header from "./components/Header.svelte";
     import Sb from "./components/Sb.svelte";
+    import placeholder from "/placeholder.svg";
+    import imagenEmpresa1 from "/imagenEmpresa1.png";
 </script>
 
 <Header></Header>
@@ -25,13 +27,70 @@
     <Counter />
 </section>
 
-<section id="vision">
-    <div class="la_vision">
+<section id="vision_section">
+    <div class="the_vision">
         <h1>Nuestra Visión</h1>
         <p class="vision">
             Ser la empresa líder en el mercado de remodelaciones y tecnología
             estructural al igual que en el apartado de seguridad cibernética.
         </p>
+        <div id="carouselCompany" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li
+                    data-target="#carouselCompany"
+                    data-slide-to="0"
+                    class="active"
+                ></li>
+                <li data-target="#carouselCompany" data-slide-to="1"></li>
+                <li data-target="#carouselCompany" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        id="imgCarouselCompany"
+                        class="d-block w-100"
+                        src={imagenEmpresa1}
+                        alt="First slide"
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        id="imgCarouselCompany"
+                        class="d-block w-100"
+                        src={placeholder}
+                        alt="Second slide"
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        id="imgCarouselCompany"
+                        class="d-block w-100"
+                        src={placeholder}
+                        alt="Third slide"
+                    />
+                </div>
+            </div>
+            <a
+                class="carousel-control-prev"
+                href="#carouselCompany"
+                role="button"
+                data-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a
+                class="carousel-control-next"
+                href="#carouselCompany"
+                role="button"
+                data-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
 </section>
 <div class="ticks"></div>
