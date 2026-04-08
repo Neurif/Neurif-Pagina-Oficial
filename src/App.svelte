@@ -8,6 +8,15 @@
     import placeholder from "/placeholder.svg";
     import imagenEmpresa1 from "/imagenEmpresa1.png";
 </script>
+  import svelteLogo from './assets/svelte.svg'
+  import viteLogo from './assets/vite.svg'
+  import heroImg from './assets/hero.png'
+  import Counter from './components/Counter.svelte'
+  import Header from './components/Header.svelte';
+  import Sb from './components/Sb.svelte';
+  import Footer from './components/Footer.svelte';
+  import NuestraVision from './components/NuestraVision.svelte';
+</script>   
 
 <Header></Header>
 <Sb></Sb>
@@ -92,6 +101,8 @@
             </a>
         </div>
     </div>
+<section id="vision">
+  <NuestraVision />
 </section>
 <div class="ticks"></div>
 <section id="next-steps">
@@ -194,7 +205,6 @@
 <div class="ticks"></div>
 <section id="spacer"></section>
 
-<footer></footer>
 
 <style>
     .hola p span {
