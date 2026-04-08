@@ -28,7 +28,7 @@
 </section>
 
 <section id="vision">
-  <NuestraVision />
+    <NuestraVision />
 </section>
 <div class="ticks"></div>
 <section id="next-steps">
