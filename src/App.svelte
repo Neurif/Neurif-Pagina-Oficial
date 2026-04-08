@@ -5,6 +5,7 @@
   import Counter from './components/Counter.svelte'
   import Header from './components/Header.svelte';
   import Sb from './components/Sb.svelte';
+  import Footer from './components/Footer.svelte';
 </script>
 
 <Header>
