@@ -1,26 +1,26 @@
 <script>
     import { onMount } from "svelte";
-    let visionRef;
-    let visionProgress = 0;
+    let misionRef;
+    let misionProgress = 0;
 
-    function updateVisionProgress() {
-        if (!visionRef) return;
-        const rect = visionRef.getBoundingClientRect();
+    function updateMisionProgress() {
+        if (!misionRef) return;
+        const rect = misionRef.getBoundingClientRect();
         const windowHeight =
             window.innerHeight || document.documentElement.clientHeight;
         const progress = 1 - rect.top / windowHeight;
-        visionProgress = Math.min(Math.max(progress, 0), 1);
+        misionProgress = Math.min(Math.max(progress, 0), 1);
     }
 
     onMount(() => {
-        updateVisionProgress();
-        window.addEventListener("scroll", updateVisionProgress, {
+        updateMisionProgress();
+        window.addEventListener("scroll", updateMisionProgress, {
             passive: true,
         });
-        window.addEventListener("resize", updateVisionProgress);
+        window.addEventListener("resize", updateMisionProgress);
         return () => {
-            window.removeEventListener("scroll", updateVisionProgress);
-            window.removeEventListener("resize", updateVisionProgress);
+            window.removeEventListener("scroll", updateMisionProgress);
+            window.removeEventListener("resize", updateMisionProgress);
         };
     });
 
@@ -32,16 +32,17 @@
 
 <div
     class="la_vision"
-    bind:this={visionRef}
-    style="opacity: {visionProgress}; transform: translateY({30 -
-        visionProgress * 30}px); visibility: {visionProgress > 0
+    bind:this={misionRef}
+    style="opacity: {misionProgress}; transform: translateY({30 -
+        misionProgress * 30}px); visibility: {misionProgress > 0
         ? 'visible' 
         : 'hidden'};"
 >
-    <h1>Nuestra Visión</h1>
+    <h1>Nuestra Misión</h1>
     <p style="max-width: 1000px; margin: 0 auto;">
-        Nuestra proyección es convertirnos en la empresa líder del mercado de remodelaciones y tecnología estructural al igual que en el apartado de seguridad cibernética. Generando un puente más eficiente y diversificado 
-        que el actual para conectar al proveedor de inmuebles con el cliente que busque servicios que podamos satisfacer.
+        Buscamos brindar una IA que ayude a los usuarios a idear y ejecutar mejor la remodelación 
+        y construcción de infraestructuras. Nuestra empresa busca generar de manera estructurada la proyección de las ideas de remodelación, ajustando cada proyecto de acuerdo con la seguridad estructural y cibernética, 
+        así como con la estabilidad mental y física de quien o quienes planteen la propuesta.
     </p>
     <div id="companyCarousel" class="carousel slide">
         <div class="carousel-indicators">
