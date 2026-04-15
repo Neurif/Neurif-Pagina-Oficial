@@ -11,11 +11,12 @@
   "devDependencies": {
     "@sveltejs/kit": "^2.57.0",
     "@sveltejs/vite-plugin-svelte": "^7.0.0",
+    "gh-pages": "^6.3.0",
     "svelte": "^5.53.12",
     "vite": "^8.0.2"
   },
   "dependencies": {
-    "bootstrap": "5.3.8",
-    "@lucide/svelte": "^1.7.0"
+    "@lucide/svelte": "^1.7.0",
+    "bootstrap": "5.3.8"
   }
 }
