@@ -7,6 +7,7 @@
     import SobreNosotros from "./components/SobreNosotros.svelte";
     import Footer from "./components/Footer.svelte";
     import NuestraVision from "./components/NuestraVision.svelte";
+    import NuestraMision from "./components/NuestraMision.svelte";
 </script>
 
 <Header />
@@ -28,6 +29,10 @@
     </div>
     <Counter />
 </section>
+<SobreNosotros/>
+
+<div class="ticks"></div>
+<section id="spacer"></section>
 
 <section id="vision">
     <NuestraVision />
@@ -130,8 +135,9 @@
     </div>
 </section>
 
-<div class="ticks"></div>
-<section id="spacer"></section>
+<section id="mision">
+    <NuestraMision />
+</section>
 
 <Footer></Footer>
 

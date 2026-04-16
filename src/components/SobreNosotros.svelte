@@ -12,7 +12,7 @@
     <div class="grid">
         <Card fillParent>
             <div class="cardContent">
-                <Brain class="about-us-icon" />
+                <Brain class="about-us-icon" style="stroke: #fa1ea0;"/>
                 <p>
                     NeurIf es una empresa que moderniza la construcción y
                     remodelación mediante inteligencia artificial.
@@ -21,7 +21,7 @@
         </Card>
         <Card fillParent>
             <div class="cardContent">
-                <Building class="about-us-icon" />
+                <Building class="about-us-icon" style="stroke: #21bbbd;"/>
                 <p>
                     Integramos el diseño estructural, la seguridad cibernética
                     en IoT y el bienestar de los usuarios en cada proyecto.
@@ -30,7 +30,7 @@
         </Card>
         <Card fillParent>
             <div class="cardContent">
-                <Plan class="about-us-icon" />
+                <Plan class="about-us-icon" style="stroke: #901aca;"/>
                 <p>
                     Nuestra IA permite planificar y ejecutar proyectos con
                     recomendaciones estratégicas basadas en ubicación, cimientos
@@ -40,7 +40,7 @@
         </Card>
         <Card fillParent>
             <div class="cardContent">
-                <Time class="about-us-icon" />
+                <Time class="about-us-icon" style="stroke: #52bf1f;"/>
                 <p>
                     Reducimos costos y tiempo al automatizar la búsqueda de
                     proveedores e inmuebles, aumentando la eficiencia de forma

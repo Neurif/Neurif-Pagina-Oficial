@@ -60,16 +60,25 @@
         height: 100%;
     }
 
-    .wrapper {
+    .wrapper 
+    {
         perspective: 800px;
     }
 
-    .card {
+    .card 
+    {
         border-radius: 2em;
+        border: 1px solid #cfcfe2;
         background-color: var(--card-bg);
         transition: transform 0.2s ease;
+        transition: border 1s ease;
         will-change: transform;
         padding: 16px;
         box-sizing: border-box;
+    }
+
+    .card:hover
+    {
+        border: 1px solid #9c9cc9;
     }
 </style>

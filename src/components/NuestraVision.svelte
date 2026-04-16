@@ -55,13 +55,13 @@
     bind:this={visionRef}
     style="opacity: {visionProgress}; transform: translateY({30 -
         visionProgress * 30}px); visibility: {visionProgress > 0
-        ? 'visible'
+        ? 'visible' 
         : 'hidden'};"
 >
     <h1>Nuestra Visión</h1>
-    <p>
-        Ser la empresa líder en el mercado de remodelaciones y tecnología
-        estructural al igual que en el apartado de seguridad cibernética.
+    <p style="max-width: 1000px; margin: 0 auto;">
+        Nuestra proyección es convertirnos en la empresa líder del mercado de remodelaciones y tecnología estructural al igual que en el apartado de seguridad cibernética. Generando un puente más eficiente y diversificado 
+        que el actual para conectar al proveedor de inmuebles con el cliente que busque servicios que podamos satisfacer.
     </p>
 
     <div class="carousel">
