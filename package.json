@@ -15,7 +15,7 @@
     "vite": "^8.0.2"
   },
   "dependencies": {
-    "bootstrap": "5.3.8",
-    "@lucide/svelte": "^1.7.0"
+    "@lucide/svelte": "^1.7.0",
+    "svelte-kit": "^1.2.0"
   }
 }
