@@ -1,10 +1,10 @@
 <script>
-    import logo from '/logo.png'
+    import logo from "/logo.png";
 </script>
 
 <header>
     <div class="logo-header">
-        <img src={logo} alt="logo">
+        <img src={logo} alt="logo" />
     </div>
     <div class="barra-navegacion-header">
         <a href="mision">Misión</a>
@@ -14,5 +14,4 @@
 </header>
 
 <style>
-
 </style>
