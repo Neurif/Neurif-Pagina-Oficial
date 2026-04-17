@@ -53,14 +53,14 @@
 
 <style>
     .wrapper {
-        margin: 32px 15%;
+        margin: 2rem 15%;
     }
 
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-auto-rows: 300px;
-        gap: 32px;
+        grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+        grid-auto-rows: 18.75rem;
+        gap: 2rem;
     }
 
     .cardContent {
