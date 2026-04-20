@@ -10,15 +10,19 @@
 
 <SobreNosotros/>
 
-<div class="ticks"></div>
-<section id="spacer"></section>
+<div class="spacer"></div>
 
 <section id="vision">
     <NuestraVision />
 </section>
 
-<section id="mision">
+<div class="spacer"></div>
+
+<section id="mision" style="margin-bottom: 60px;">
     <NuestraMision />
 </section>
+
+<div class="spacer"></div>
+<div style="height: 300px;"></div>
 
 <Footer></Footer>

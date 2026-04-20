@@ -137,10 +137,6 @@ code {
     margin: 0 auto;
 }
 
-#companyCarousel {
-    height: 50vh;
-}
-
 .hero {
     position: relative;
 
@@ -303,12 +299,10 @@ code {
     }
 }
 
-#spacer {
-    height: 88px;
-    border-top: 1px solid var(--border);
-    @media (max-width: 1024px) {
-        height: 48px;
-    }
+.spacer {
+    height: 1px;
+    background-color: var(--border);
+    margin: 1rem 0;
 }
 
 .ticks {
