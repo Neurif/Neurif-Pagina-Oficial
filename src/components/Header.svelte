@@ -35,7 +35,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8f0;
+    backdrop-filter: blur(16px);
 }
 
 .logo-header {
